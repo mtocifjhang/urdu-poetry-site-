@@ -1,0 +1,21 @@
+,---
+---
+
+@import "{{ site.theme }}";
+
+body {
+  direction: rtl;
+  font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', serif;
+  text-align: right;
+  line-height: 2.5;
+}
+
+.post-content {
+  font-size: 1.4rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  font-family: 'Noto Nastaliq Urdu', serif;
+}
